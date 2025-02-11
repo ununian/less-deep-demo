@@ -9,7 +9,7 @@ import Com from './Com.vue';
 
 <style scoped lang="less">
 .content {
-  ::v-deep .Com {
+  :deep(.Com) {
     &-title {
       font-size: 3rem;
     }
